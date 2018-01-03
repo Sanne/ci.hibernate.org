@@ -22,10 +22,10 @@
   become: yes
 
   roles:
+    - awsslave
     - common
     - aws
     - jenkins-slave
-    - awsslave
     - postgres-server
     - mariadb-server
     - redis-server
